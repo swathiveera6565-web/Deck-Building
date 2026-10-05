@@ -1575,3 +1575,18 @@ html[dir="rtl"] .details-service-content li::before {
         line-height: 1.7 !important;
     }
 }
+
+
+.service-details-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.service-details-label::before {
+    content: "";
+    width: 35px;
+    height: 1px;
+    background: #B7793E;
+    flex-shrink: 0;
+}
